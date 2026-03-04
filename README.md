@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# Hifertility Clone – React Native Mobil Uygulama
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje **Mobil Uygulama Geliştirme** dersi kapsamında hazırlanmıştır.  
+Uygulama **React Native (Expo)** kullanılarak geliştirilmiştir ve Android üzerinde çalışmaktadır.
 
-## Get started
+Uygulama içerisinde blog içerikleri, forum benzeri paylaşımlar, ev ödevleri, kurs içerikleri ve çeşitli bilgi sayfaları bulunmaktadır.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+# Özellikler
 
-2. Start the app
+- Drawer Menu Navigation
+- Blog içerikleri ve detay sayfası
+- Ev ödevleri listesi ve detay sayfası
+- Forum tarzı paylaşımlar
+- Kurs içerikleri
+- Anket ekranı
+- Danışmanlık ekranı
+- Hakkımızda / İletişim sayfaları
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+# Yerelde Nasıl Çalıştırılır?
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Gereksinimler
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Node.js (LTS)
+- Git
+- Android Studio (Android Emulator için)
+- Expo CLI
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Projeyi Klonlama
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Abdulrahman-Akkash/Challenge-2.git
+cd Challenge-2/hifertility-clone
+Gerekli Paketleri Kurma
+npm install
+Uygulamayı Başlatma
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Android emulator çalışıyorsa terminalde:
 
-## Learn more
+a
 
-To learn more about developing your project with Expo, look at the following resources:
+tuşuna basarak uygulamayı Android üzerinde çalıştırabilirsiniz.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Alternatif olarak:
 
-## Join the community
+npx expo run:android
+Uygulama Demo Videosu
 
-Join our community of developers creating universal apps.
+Youtube video linki:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+https://youtube.com/shorts/yDAI90JsMic?feature=share
+
+Video içerisinde uygulamanın temel özellikleri gösterilmektedir.
+
+APK Dosyası
+
+Uygulamanın Android APK dosyası aşağıdaki linkten indirilebilir:
+
+https://expo.dev/accounts/mrcyberexe/projects/hifertility-clone/builds/b50d288c-f22d-4341-9b02-192b3cc477c0
+
+APK indirildikten sonra Android cihazlara kurulabilir.
+
+Kullanılan Teknolojiler
+
+React Native
+
+Expo
+
+Expo Router
+
+React Navigation
+
+JavaScript / TypeScript
+
+Android Studioü,
